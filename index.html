@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baldo Digital</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  
+<!-- NAVBAR — Bootstrap Component 1 -->
+<nav class="navbar navbar-expand-lg navbar-dark bd-navbar sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo-dark.png" alt="Baldo Digital" class="bd-nav-logo" />
+    </a>
+    <button class="navbar-toggler border-0" type="button"
+            data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#como">Cómo trabajo</a></li>
+        <li class="nav-item ms-lg-2">
+          <a class="btn bd-btn-nav" href="#contacto">Hablemos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="bd-hero">
+  <div class="container">
+    <div class="row align-items-center min-vh-85 py-5">
+      <div class="col-lg-4 order-2 order-lg-1">
+        <span class="bd-eyebrow">SOLUCIONES ADAPTADAS A TU NEGOCIO</span>
+        <h1 class="bd-headline">
+          Menos caos,<br><em>más control.</em>
+        </h1>
+        <p class="bd-subhead">
+         Sistemas, automatizaciones y herramientas digitales diseñadas para ordenar procesos, ahorrar tiempo y mejorar la gestión de tu negocio.
+        </p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="#servicios" class="btn bd-btn-primary">Ver servicios</a>
+          <a href="#contacto" class="btn bd-btn-ghost">Consultanos <i class="bi bi-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+      
+      <div class="col-lg-8 order-1 order-lg-2 mb-5 mb-lg-0 text-center">
+        <div class="bd-hero-visual">
+        <img src="img/mesaBaldo.png"
+     alt="Soluciones digitales a medida para tu negocio"
+     class="bd-hero-img img-fluid"
+     style="width:100%; height:auto; border-radius:16px;" /> 
+          <div class="bd-hero-badge">
+            <i class="bi bi-check2-circle"></i>
+            Soluciones personalizadas
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+<!-- SERVICIOS — Bootstrap Cards — Component 2 -->
+<section id="servicios" class="bd-section">
+  <div class="container">
+
+    <div class="bd-section-header text-center mb-5">
+      <span class="bd-tag">Servicios</span>
+      <h2 class="bd-section-title">¿Qué podemos hacer por tu negocio?</h2>
+      <p class="bd-section-sub"><b>Herramientas digitales a medida</b><br>
+        — desde cero o mejorando lo que ya tenés.</p>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="bd-card h-100">
+          <div class="bd-card-icon"><i class="bi bi-window-stack"></i></div>
+          <img src="img/Card-APPS.png" alt="Aplicaciones web a medida para pymes" class="bd-card-img" />
+          <br>
+          <h3 class="bd-card-title">Aplicaciones Web</h3>
+          <p class="bd-card-text">Para cuando una planilla ya no alcanza. Si hoy lo hacés en papel, en un chat o de memoria — lo convertimos en una herramienta real que funciona desde el navegador.</p>
+          <ul class="bd-feature-list">
+            <li><i class="bi bi-check2"></i> Gestión de clientes, ventas y turnos</li>
+            <li><i class="bi bi-check2"></i> Control de stock e inventario</li>
+            <li><i class="bi bi-check2"></i> Seguimiento financiero</li>
+            <li><i class="bi bi-check2"></i> Soluciones a medida</li>
+          </ul>
+          <a href="#contacto" class="btn bd-btn-card mt-auto">Consultar</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="bd-card h-100">
+          <div class="bd-card-icon"><i class="bi bi-table"></i></div>
+          <img src="img/Card-PLANILLAS.jfif" alt="Plantillas y sistemas en Excel y Google Sheets" class="bd-card-img" />
+          <br>
+          <h3 class="bd-card-title">Plantillas y sistemas en Excel / Sheets</h3>
+          <p class="bd-card-text">El poder de una planilla, sin el caos. Herramientas hechas a medida para tu negocio, sin fórmulas raras ni cosas que no entendés.</p>
+          <ul class="bd-feature-list">
+            <li><i class="bi bi-check2"></i> Calculadoras de costos, precios y márgenes</li>
+            <li><i class="bi bi-check2"></i> Gestión de clientes y proveedores</li>
+            <li><i class="bi bi-check2"></i> Automatización de tareas repetitivas</li>
+            <li><i class="bi bi-check2"></i> Reportes y paneles de control</li>
+          </ul>
+          <a href="#contacto" class="btn bd-btn-card mt-auto">Consultar</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="bd-card h-100">
+          <div class="bd-card-icon"><i class="bi bi-tools"></i></div>
+          <img src="img/Card-Soporte.png" alt="Arreglo y soporte de planillas Excel y Sheets" class="bd-card-img" />
+          <br>
+          <h3 class="bd-card-title">Optimización y soporte</h3>
+          <p class="bd-card-text">¿Tenés una planilla rota o que no entendés? La revisamos, la ordenamos y la dejamos funcionando. Sin drama.</p>
+          <ul class="bd-feature-list">
+            <li><i class="bi bi-check2"></i> Diagnóstico rápido</li>
+            <li><i class="bi bi-check2"></i> Limpieza y organización</li>
+            <li><i class="bi bi-check2"></i> Corrección de errores</li>
+            <li><i class="bi bi-check2"></i> Nuevas funcionalidades y automatizaciones</li>
+          </ul>
+          <a href="#contacto" class="btn bd-btn-card mt-auto">Consultar</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- =====================================================
+     TRABAJOS REALIZADOS
+     ===================================================== -->
+<section id="trabajos" class="bd-section bd-section--alt">
+  <div class="container">
+
+    <div class="bd-section-header text-center mb-5">
+      <span class="bd-tag">Trabajos</span>
+      <h2 class="bd-section-title">Lo que hacemos, en la práctica.</h2>
+      <p class="bd-section-sub">Cada solución fue construida a medida para un negocio real.</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+      <!-- CARD 1: Sistema Financiero -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="bd-work-card" data-bs-toggle="modal" data-bs-target="#modalFinanzas">
+          <div class="bd-work-thumb">
+            <img src="img/Finanzas.png" alt="Sistema Financiero" />
+            <div class="bd-work-overlay"><i class="bi bi-zoom-in"></i></div>
+          </div>
+          <div class="bd-work-info">
+            <span class="bd-work-tag">Sistema desarrollado en Excel + VBA</span>
+            <h4 class="bd-work-title">Sistema Financiero</h4>
+            <p class="bd-work-desc">Control de saldos, movimientos y compromisos desde un solo lugar.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2: Gestión Integral para Estética-->
+      <div class="col-sm-6 col-lg-3">
+        <div class="bd-work-card" data-bs-toggle="modal" data-bs-target="#modalEstetica">
+          <div class="bd-work-thumb">
+            <img src="img/Estética 2.png" alt="Sistema de Gestión Integral" />
+            <div class="bd-work-overlay"><i class="bi bi-zoom-in"></i></div>
+          </div>
+          <div class="bd-work-info">
+            <span class="bd-work-tag">Sistema desarrollado en Google Sheets + AppScript</span>
+            <h4 class="bd-work-title">Gestión Integral</h4>
+            <p class="bd-work-desc">Caja, egresos, costos, comisiones y reportes para negocio de servicios.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 3: Control de Inventario -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="bd-work-card" data-bs-toggle="modal" data-bs-target="#modalInventario">
+          <div class="bd-work-thumb">
+            <img src="img/Inventario 2.png" alt="Control de Inventario" />
+            <div class="bd-work-overlay"><i class="bi bi-zoom-in"></i></div>
+          </div>
+          <div class="bd-work-info">
+            <span class="bd-work-tag">App Web</span>
+            <h4 class="bd-work-title">Control de Inventario</h4>
+            <p class="bd-work-desc">Stock organizado por ubicaciones, lotes y movimientos en tiempo real.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 4: Calculadora ML -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="bd-work-card" data-bs-toggle="modal" data-bs-target="#modalCalculadora">
+          <div class="bd-work-thumb">
+            <img src="img/Calculadora Masiva 2.png" alt="Calculadora de Precios ML" />
+            <div class="bd-work-overlay"><i class="bi bi-zoom-in"></i></div>
+          </div>
+          <div class="bd-work-info">
+            <span class="bd-work-tag">Sistema desarrollado en Excel</span>
+            <h4 class="bd-work-title">Calculadora de Precios ML</h4>
+            <p class="bd-work-desc">Rentabilidad, comisiones e impuestos calculados automáticamente para Mercado Libre.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 5: Veterinaria -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="bd-work-card" data-bs-toggle="modal" data-bs-target="#modalVeterinaria">
+          <div class="bd-work-thumb">
+            <img src="img/Veterinaria.png" alt="Gestión de internaciones" />
+            <div class="bd-work-overlay"><i class="bi bi-zoom-in"></i></div>
+          </div>
+          <div class="bd-work-info">
+            <span class="bd-work-tag">App Web</span>
+            <h4 class="bd-work-title">Gestión de internaciones</h4>
+            <p class="bd-work-desc">Gestión de tratamientos, costos e internaciones para veterinaria.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>   <!-- ← recién acá cierra la sección -->
+
+
+<!-- =====================================================
+     MODALES — pegá esto justo antes del footer
+     ===================================================== -->
+
+<!-- MODAL: Sistema Financiero -->
+<div class="modal fade" id="modalFinanzas" tabindex="-1" aria-labelledby="modalFinanzasLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bd-modal-content">
+      <div class="modal-header bd-modal-header">
+        <div>
+          <span class="bd-work-tag">Sistema desarrollado en Excel + VBA</span>
+          <h5 class="modal-title bd-modal-title" id="modalFinanzasLabel">Sistema Financiero</h5>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body bd-modal-body">
+        <p class="bd-modal-desc">Centralización total de saldos totales, compromisos, y proyección de fondos. Diseñado para tomar decisiones con claridad.</p>
+        <div class="row g-3">
+          <div class="col-12">
+            <img src="img/Finanzas.png" class="bd-modal-img" alt="Sistema Financiero" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: Gestión Integral — 2 imágenes -->
+<div class="modal fade" id="modalEstetica" tabindex="-1" aria-labelledby="modalEsteticaLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bd-modal-content">
+      <div class="modal-header bd-modal-header">
+        <div>
+          <span class="bd-work-tag">Sistema desarrollado en Google Sheets + AppScript</span>
+          <h5 class="modal-title bd-modal-title" id="modalEsteticaLabel">Sistema de Gestión Integral</h5>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body bd-modal-body">
+        <p class="bd-modal-desc">Control para negocios de servicios: caja diaria, egresos, comisiones, costos mensuales y reportes por período. Pensado para que nada se escape.</p>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <img src="img/Estética 1.png" class="bd-modal-img" alt="Gestión Integral — vista 1" />
+          </div>
+          <div class="col-md-6">
+            <img src="img/Estética 2.png" class="bd-modal-img" alt="Gestión Integral — vista 2" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: Control de Inventario — 2 imágenes -->
+<div class="modal fade" id="modalInventario" tabindex="-1" aria-labelledby="modalInventarioLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bd-modal-content">
+      <div class="modal-header bd-modal-header">
+        <div>
+          <span class="bd-work-tag">App Web</span>
+          <h5 class="modal-title bd-modal-title" id="modalInventarioLabel">Control de Inventario</h5>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body bd-modal-body">
+        <p class="bd-modal-desc">Sistema de stock organizado por ubicaciones, códigos y lotes. Alta de productos, búsqueda rápida y seguimiento de cada movimiento con historial completo.</p>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <img src="img/Inventario 1.png" class="bd-modal-img" alt="Inventario — vista principal" />
+          </div>
+          <div class="col-md-6">
+            <img src="img/Inventario 2.png" class="bd-modal-img" alt="Inventario — agregar producto" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: Calculadora de Precios ML -->
+<div class="modal fade" id="modalCalculadora" tabindex="-1" aria-labelledby="modalCalculadoraLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bd-modal-content">
+      <div class="modal-header bd-modal-header">
+        <div>
+          <span class="bd-work-tag">Sistema desarrollado en Excel</span>
+          <h5 class="modal-title bd-modal-title" id="modalCalculadoraLabel">Calculadora Masiva de Precios — Mercado Libre</h5>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body bd-modal-body">
+        <p class="bd-modal-desc">Calculá el precio de venta final considerando costos, rentabilidad deseada, IVA, retención IBB, envíos y comisiones de ML. Para vendedores que necesitan claridad en cada número.</p>
+        <div class="row g-3">
+          <div class="col-12">
+            <img src="img/Calculadora Masiva 2.png" class="bd-modal-img" alt="Calculadora de Precios ML" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- MODAL: Gestión de internaciones Veterinaria -->
+<div class="modal fade" id="modalVeterinaria" tabindex="-1" aria-labelledby="modalVeterinariaLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bd-modal-content">
+      <div class="modal-header bd-modal-header">
+        <div>
+          <span class="bd-work-tag">App Web</span>
+          <h5 class="modal-title bd-modal-title" id="modalVeterinariaLabel">Gestión de internaciones</h5>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body bd-modal-body">
+        <p class="bd-modal-desc">Gestión completa de pacientes internados: seguimiento de tratamientos, registro de costos y control de internaciones para clínicas veterinarias.</p>
+        <div class="row g-3">
+          <div class="col-12">
+            <img src="img/Veterinaria.png" class="bd-modal-img" alt="Gestión de internaciones veterinaria" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CÓMO TRABAJO — Accordion — Component 4 -->
+<section id="como" class="bd-section">
+  <div class="container">
+
+    <div class="bd-section-header text-center mb-5">
+      <span class="bd-tag">Proceso</span>
+      <h2 class="bd-section-title">Así resolvemos paso a paso. </h2>
+      <p class="bd-section-sub">Nos contás tu caso, analizamos, ordenamos y aplicamos la solución.</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="accordion bd-accordion" id="procesoAccordion">
+          <div class="accordion-item bd-accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button bd-accordion-btn" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#paso1">
+
+                <span class="bd-step-num">01</span> Análisis del negocio
+            
+              </button>
+            </h2>
+            <div id="paso1" class="accordion-collapse collapse show" data-bs-parent="#procesoAccordion">
+              <div class="accordion-body bd-accordion-body">
+                Entiendo cómo trabajás hoy: qué hacés, qué herramientas usás y dónde se pierde tiempo o dinero.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bd-accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button bd-accordion-btn collapsed" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#paso2">
+                <span class="bd-step-num">02</span> Detección de problemas
+              </button>
+            </h2>
+            <div id="paso2" class="accordion-collapse collapse" data-bs-parent="#procesoAccordion">
+              <div class="accordion-body bd-accordion-body">
+                Identifico los puntos de fricción reales: errores, procesos manuales que se pueden automatizar y tareas repetitivas.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bd-accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button bd-accordion-btn collapsed" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#paso3">
+                <span class="bd-step-num">03</span> Organización de procesos
+              </button>
+            </h2>
+            <div id="paso3" class="accordion-collapse collapse" data-bs-parent="#procesoAccordion">
+              <div class="accordion-body bd-accordion-body">
+                Ordeno la lógica antes de tocar nada: un proceso claro siempre da un resultado más limpio.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bd-accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button bd-accordion-btn collapsed" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#paso4">
+                <span class="bd-step-num">04</span> Solución aplicada
+              </button>
+            </h2>
+            <div id="paso4" class="accordion-collapse collapse" data-bs-parent="#procesoAccordion">
+              <div class="accordion-body bd-accordion-body">
+                Implemento la herramienta, hago la entrega con explicación y quedo disponible para ajustes.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a href="#contacto" class="btn bd-btn-primary">Empezar ahora</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FORMULARIO — Bootstrap Form — Component 5 -->
+<section id="contacto" class="bd-section bd-section--dark">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center mb-5">
+        <span class="bd-tag bd-tag--on-dark">Contacto</span>
+        <h2 class="bd-section-title bd-section-title--light">Contame tu problema y te propongo una solución.</h2>
+        <p class="bd-section-sub bd-section-sub--light">
+          Contame qué necesitás y te respondo con una propuesta clara. Sin compromiso.
+        </p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <div class="bd-form-wrap">
+          <form id="contactForm" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label class="bd-label" for="nombre">Nombre</label>
+                <input type="text" class="form-control bd-input" id="nombre" placeholder="Tu nombre" required />
+                <div class="invalid-feedback">Por favor ingresá tu nombre.</div>
+              </div>
+              <div class="col-sm-6">
+                <label class="bd-label" for="email">Email</label>
+                <input type="email" class="form-control bd-input" id="email" placeholder="tu@email.com" required />
+                <div class="invalid-feedback">Email inválido.</div>
+              </div>
+              <div class="col-12">
+                <label class="bd-label" for="servicio">¿Qué servicio te interesa?</label>
+                <select class="form-select bd-input" id="servicio" required>
+                  <option value="" disabled selected>Elegí una opción</option>
+                  <option>App Web</option>
+                  <option>Plantillas y sistemas en Excel / Sheets</option>
+                  <option>Arreglo y soporte de plantillas</option>
+                  <option>No sé todavía, quiero hablar</option>
+                </select>
+                <div class="invalid-feedback">Seleccioná un servicio.</div>
+              </div>
+              <div class="col-12">
+                <label class="bd-label" for="mensaje">Contame tu caso</label>
+                <textarea class="form-control bd-input" id="mensaje" rows="4"
+                          placeholder="¿Qué problema querés resolver? ¿Qué usás ahora?" required></textarea>
+                <div class="invalid-feedback">Escribí un mensaje.</div>
+              </div>
+              <div class="col-12 d-flex flex-column flex-sm-row gap-3">
+                <button type="submit" class="btn bd-btn-submit flex-fill">
+                  Enviar consulta <i class="bi bi-send ms-2"></i>
+                </button>
+                <a href="https://wa.me/5491100000000?text=Hola%20Baldo%20Digital%2C%20quiero%20consultar%20sobre%20sus%20servicios"
+                   target="_blank"
+                   class="btn bd-btn-whatsapp flex-fill">
+                  <i class="bi bi-whatsapp me-2"></i> Escribir por WhatsApp
+                </a>
+              </div>
+              <div class="col-12">
+                <div id="formSuccess" class="alert bd-alert-success d-none" role="alert">
+                  <i class="bi bi-check-circle-fill me-2"></i>
+                  ¡Gracias! Te respondo a la brevedad.
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bd-footer">
+  <div class="container">
+    <div class="row align-items-center gy-3">
+      <div class="col-md-4 text-center text-md-start">
+      </div>
+      <div class="col-md-4 text-center">
+        <p class="bd-footer-copy mb-0">© <span id="year"></span> Sitio desarrollado por Baldo Digital. <br> Todos los derechos reservados.</p>
+      </div>
+      <div class="col-md-4 text-center text-md-end">
+        <a href="https://wa.me/5491100000000" target="_blank" class="bd-footer-link me-3">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://instagram.com/baldodigital" target="_blank" class="bd-footer-link">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+  // Año dinámico en el footer
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Validación del formulario
+  const form = document.getElementById('contactForm');
+  if (form) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!form.checkValidity()) {
+        form.classList.add('was-validated');
+        return;
+      }
+      document.getElementById('formSuccess').classList.remove('d-none');
+      form.reset();
+      form.classList.remove('was-validated');
+    });
+  }
+</script>
+</body>
+</html>
