@@ -1,4 +1,4 @@
-// ════════════════════════════════════════
+/ ════════════════════════════════════════
 //  BALDO DIGITAL — main.js
 // ════════════════════════════════════════
 
@@ -8,24 +8,25 @@ document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('contactForm');
   const successMsg = document.getElementById('formSuccess');
 
-  if (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      e.stopPropagation();
 
-      if (form.checkValidity()) {
-        // Simulate successful send
-        form.reset();
-        form.classList.remove('was-validated');
-        successMsg.classList.remove('d-none');
-        setTimeout(() => successMsg.classList.add('d-none'), 5000);
-      } else {
-        form.classList.add('was-validated');
-      }
-    });
-  }
-
+// if (form) {
+//   form.addEventListener('submit', function (e) {
+//     e.preventDefault();
+//     e.stopPropagation();
+//
+//     if (form.checkValidity()) {
+//       // Simulate successful send
+//       form.reset();
+//       form.classList.remove('was-validated');
+//       successMsg.classList.remove('d-none');
+//       setTimeout(() => successMsg.classList.add('d-none'), 5000);
+//     } else {
+//       form.classList.add('was-validated');
+//     }
+//   });
+// }
   // ── Navbar: hide on scroll down, show on scroll up ──
+  
   let lastScrollY = window.scrollY;
   const navbar = document.querySelector('.bd-navbar');
 
