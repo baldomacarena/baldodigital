@@ -25,6 +25,7 @@
     <div class="collapse navbar-collapse" id="mainNav">
       <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
         <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#trabajos" id="nav-trabajos">Trabajos</a></li>
         <li class="nav-item"><a class="nav-link" href="#como">Cómo trabajo</a></li>
         <li class="nav-item ms-lg-2">
           <a class="btn bd-btn-nav" href="#contacto">Hablemos</a>
@@ -135,15 +136,20 @@
       </div>
 
     </div>
+
+    <div class="text-center mt-5">
+      <button class="btn bd-btn-trabajos" id="btn-ver-trabajos">
+        <i class="bi bi-grid-3x3-gap me-2"></i>
+        Ver trabajos
+        <i class="bi bi-chevron-down ms-2" id="btn-trabajos-icon"></i>
+      </button>
+    </div>
+
   </div>
 </section>
 
-
-
-<!-- =====================================================
-     TRABAJOS REALIZADOS
-     ===================================================== -->
-<section id="trabajos" class="bd-section bd-section--alt">
+<!-- ===================================================== -->
+<section id="trabajos" class="bd-section bd-section--alt bd-trabajos-hidden">
   <div class="container">
 
     <div class="bd-section-header text-center mb-5">
@@ -157,14 +163,14 @@
       <!-- CARD 1: Sistema Financiero -->
       <div class="col-sm-6 col-lg-3">
         <div class="bd-work-card" data-bs-toggle="modal" data-bs-target="#modalFinanzas">
-          <div class="bd-work-thumb">
-            <img src="img/Finanzas.png" alt="Sistema Financiero" />
-            <div class="bd-work-overlay"><i class="bi bi-zoom-in"></i></div>
-          </div>
           <div class="bd-work-info">
             <span class="bd-work-tag">Sistema desarrollado en Excel + VBA</span>
             <h4 class="bd-work-title">Sistema Financiero</h4>
             <p class="bd-work-desc">Control de saldos, movimientos y compromisos desde un solo lugar.</p>
+          </div>
+          <div class="bd-work-thumb">
+            <img src="img/Finanzas.png" alt="Sistema Financiero" />
+            <div class="bd-work-overlay"><i class="bi bi-zoom-in"></i></div>
           </div>
         </div>
       </div>
@@ -172,14 +178,14 @@
       <!-- CARD 2: Gestión Integral para Estética-->
       <div class="col-sm-6 col-lg-3">
         <div class="bd-work-card" data-bs-toggle="modal" data-bs-target="#modalEstetica">
-          <div class="bd-work-thumb">
-            <img src="img/Estética 2.png" alt="Sistema de Gestión Integral" />
-            <div class="bd-work-overlay"><i class="bi bi-zoom-in"></i></div>
-          </div>
           <div class="bd-work-info">
             <span class="bd-work-tag">Sistema desarrollado en Google Sheets + AppScript</span>
             <h4 class="bd-work-title">Gestión Integral</h4>
             <p class="bd-work-desc">Caja, egresos, costos, comisiones y reportes para negocio de servicios.</p>
+          </div>
+          <div class="bd-work-thumb">
+            <img src="img/Estética 2.png" alt="Sistema de Gestión Integral" />
+            <div class="bd-work-overlay"><i class="bi bi-zoom-in"></i></div>
           </div>
         </div>
       </div>
@@ -187,14 +193,14 @@
       <!-- CARD 3: Control de Inventario -->
       <div class="col-sm-6 col-lg-3">
         <div class="bd-work-card" data-bs-toggle="modal" data-bs-target="#modalInventario">
-          <div class="bd-work-thumb">
-            <img src="img/Inventario 2.png" alt="Control de Inventario" />
-            <div class="bd-work-overlay"><i class="bi bi-zoom-in"></i></div>
-          </div>
           <div class="bd-work-info">
             <span class="bd-work-tag">App Web</span>
             <h4 class="bd-work-title">Control de Inventario</h4>
             <p class="bd-work-desc">Stock organizado por ubicaciones, lotes y movimientos en tiempo real.</p>
+          </div>
+          <div class="bd-work-thumb">
+            <img src="img/Inventario 2.png" alt="Control de Inventario" />
+            <div class="bd-work-overlay"><i class="bi bi-zoom-in"></i></div>
           </div>
         </div>
       </div>
@@ -202,14 +208,14 @@
       <!-- CARD 4: Calculadora ML -->
       <div class="col-sm-6 col-lg-3">
         <div class="bd-work-card" data-bs-toggle="modal" data-bs-target="#modalCalculadora">
-          <div class="bd-work-thumb">
-            <img src="img/Calculadora Masiva 2.png" alt="Calculadora de Precios ML" />
-            <div class="bd-work-overlay"><i class="bi bi-zoom-in"></i></div>
-          </div>
           <div class="bd-work-info">
             <span class="bd-work-tag">Sistema desarrollado en Excel</span>
             <h4 class="bd-work-title">Calculadora de Precios ML</h4>
             <p class="bd-work-desc">Rentabilidad, comisiones e impuestos calculados automáticamente para Mercado Libre.</p>
+          </div>
+          <div class="bd-work-thumb">
+            <img src="img/Calculadora Masiva 2.png" alt="Calculadora de Precios ML" />
+            <div class="bd-work-overlay"><i class="bi bi-zoom-in"></i></div>
           </div>
         </div>
       </div>
@@ -217,14 +223,14 @@
       <!-- CARD 5: Veterinaria -->
       <div class="col-sm-6 col-lg-3">
         <div class="bd-work-card" data-bs-toggle="modal" data-bs-target="#modalVeterinaria">
-          <div class="bd-work-thumb">
-            <img src="img/Veterinaria.png" alt="Gestión de internaciones" />
-            <div class="bd-work-overlay"><i class="bi bi-zoom-in"></i></div>
-          </div>
           <div class="bd-work-info">
             <span class="bd-work-tag">App Web</span>
             <h4 class="bd-work-title">Gestión de internaciones</h4>
             <p class="bd-work-desc">Gestión de tratamientos, costos e internaciones para veterinaria.</p>
+          </div>
+          <div class="bd-work-thumb">
+            <img src="img/Veterinaria.png" alt="Gestión de internaciones" />
+            <div class="bd-work-overlay"><i class="bi bi-zoom-in"></i></div>
           </div>
         </div>
       </div>
@@ -360,6 +366,8 @@
   </div>
 </div>
 
+<hr class="bd-divider-section">
+
 <!-- CÓMO TRABAJO — Accordion — Component 4 -->
 <section id="como" class="bd-section">
   <div class="container">
@@ -483,7 +491,7 @@
                 <button type="submit" class="btn bd-btn-submit flex-fill">
                   Enviar consulta <i class="bi bi-send ms-2"></i>
                 </button>
-                <a href="https://wa.me/5491100000000?text=Hola%20Baldo%20Digital%2C%20quiero%20consultar%20sobre%20sus%20servicios"
+                <a href="https://api.whatsapp.com/send?phone=1137013254&text=Hola!%20Me%20gustar%C3%ADa%20consultar%20sobre%20el%20servicio%20de"
                    target="_blank"
                    class="btn bd-btn-whatsapp flex-fill">
                   <i class="bi bi-whatsapp me-2"></i> Escribir por WhatsApp
@@ -530,7 +538,43 @@
   // Año dinámico en el footer
   document.getElementById('year').textContent = new Date().getFullYear();
 
-  // Validación del formulario
+  // Mostrar/ocultar sección trabajos
+  const btnVerTrabajos = document.getElementById('btn-ver-trabajos');
+  const seccionTrabajos = document.getElementById('trabajos');
+  const navTrabajos = document.getElementById('nav-trabajos');
+  const btnIcon = document.getElementById('btn-trabajos-icon');
+  let trabajosAbierto = false;
+
+  function mostrarTrabajos() {
+    trabajosAbierto = true;
+    seccionTrabajos.classList.remove('bd-trabajos-hidden');
+    seccionTrabajos.classList.add('bd-trabajos-visible');
+    btnVerTrabajos.innerHTML = '<i class="bi bi-x-circle me-2"></i>Ocultar trabajos<i class="bi bi-chevron-up ms-2"></i>';
+    setTimeout(() => {
+      seccionTrabajos.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 50);
+  }
+
+  function ocultarTrabajos() {
+    trabajosAbierto = false;
+    seccionTrabajos.classList.add('bd-trabajos-hidden');
+    seccionTrabajos.classList.remove('bd-trabajos-visible');
+    btnVerTrabajos.innerHTML = '<i class="bi bi-grid-3x3-gap me-2"></i>Ver trabajos<i class="bi bi-chevron-down ms-2"></i>';
+  }
+
+  if (btnVerTrabajos) {
+    btnVerTrabajos.addEventListener('click', () => {
+      trabajosAbierto ? ocultarTrabajos() : mostrarTrabajos();
+    });
+  }
+  if (navTrabajos) {
+    navTrabajos.addEventListener('click', function(e) {
+      if (!trabajosAbierto) {
+        e.preventDefault();
+        mostrarTrabajos();
+      }
+    });
+  }
   const form = document.getElementById('contactForm');
   if (form) {
     form.addEventListener('submit', function (e) {
