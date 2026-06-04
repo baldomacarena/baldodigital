@@ -90,7 +90,7 @@
           <img src="img/Card-APPS.png" alt="Aplicaciones web a medida para pymes" class="bd-card-img" />
           <br>
           <h3 class="bd-card-title">Aplicaciones Web</h3>
-          <p class="bd-card-text">Para cuando una planilla ya no alcanza. Si hoy lo hacés en papel, en un chat o de memoria — lo convertimos en una herramienta real que funciona desde el navegador.</p>
+          <p class="bd-card-text">Aplicaciones web diseñadas para centralizar información, automatizar procesos y facilitar la gestión diaria de tu negocio desde cualquier dispositivo.</p>
           <ul class="bd-feature-list">
             <li><i class="bi bi-check2"></i> Gestión de clientes, ventas y turnos</li>
             <li><i class="bi bi-check2"></i> Control de stock e inventario</li>
@@ -107,7 +107,7 @@
           <img src="img/Card-PLANILLAS.jfif" alt="Plantillas y sistemas en Excel y Google Sheets" class="bd-card-img" />
           <br>
           <h3 class="bd-card-title">Plantillas y sistemas en Excel / Sheets</h3>
-          <p class="bd-card-text">El poder de una planilla, sin el caos. Herramientas hechas a medida para tu negocio, sin fórmulas raras ni cosas que no entendés.</p>
+          <p class="bd-card-text"> Herramientas diseñadas para simplificar la gestión de tu negocio, automatizando tareas y organizando la información de forma clara y práctica.</p>
           <ul class="bd-feature-list">
             <li><i class="bi bi-check2"></i> Calculadoras de costos, precios y márgenes</li>
             <li><i class="bi bi-check2"></i> Gestión de clientes y proveedores</li>
@@ -180,7 +180,7 @@
         <div class="bd-work-card" data-bs-toggle="modal" data-bs-target="#modalEstetica">
           <div class="bd-work-info">
             <span class="bd-work-tag">Sistema desarrollado en Google Sheets + AppScript</span>
-            <h4 class="bd-work-title">Gestión Integral</h4>
+            <h4 class="bd-work-title">Gestión Integral para estética</h4>
             <p class="bd-work-desc">Caja, egresos, costos, comisiones y reportes para negocio de servicios.</p>
           </div>
           <div class="bd-work-thumb">
@@ -225,7 +225,7 @@
         <div class="bd-work-card" data-bs-toggle="modal" data-bs-target="#modalVeterinaria">
           <div class="bd-work-info">
             <span class="bd-work-tag">App Web</span>
-            <h4 class="bd-work-title">Gestión de internaciones</h4>
+            <h4 class="bd-work-title">Gestión para veterinaria</h4>
             <p class="bd-work-desc">Gestión de tratamientos, costos e internaciones para veterinaria.</p>
           </div>
           <div class="bd-work-thumb">
@@ -256,7 +256,7 @@
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
       </div>
       <div class="modal-body bd-modal-body">
-        <p class="bd-modal-desc">Centralización total de saldos totales, compromisos, y proyección de fondos. Diseñado para tomar decisiones con claridad.</p>
+        <p class="bd-modal-desc">Centralización total de saldos y compromisos.</p>
         <div class="row g-3">
           <div class="col-12">
             <img src="img/Finanzas.png" class="bd-modal-img" alt="Sistema Financiero" />
@@ -331,7 +331,7 @@
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
       </div>
       <div class="modal-body bd-modal-body">
-        <p class="bd-modal-desc">Calculá el precio de venta final considerando costos, rentabilidad deseada, IVA, retención IBB, envíos y comisiones de ML. Para vendedores que necesitan claridad en cada número.</p>
+        <p class="bd-modal-desc">Calculá el precio de venta final considerando costos, rentabilidad deseada, IVA, retención IBB, envíos y comisiones de ML. </p>
         <div class="row g-3">
           <div class="col-12">
             <img src="img/Calculadora Masiva 2.png" class="bd-modal-img" alt="Calculadora de Precios ML" />
@@ -350,7 +350,7 @@
       <div class="modal-header bd-modal-header">
         <div>
           <span class="bd-work-tag">App Web</span>
-          <h5 class="modal-title bd-modal-title" id="modalVeterinariaLabel">Gestión de internaciones</h5>
+          <h5 class="modal-title bd-modal-title" id="modalVeterinariaLabel">Gestión de veterinaria</h5>
         </div>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
       </div>
@@ -458,53 +458,75 @@
     <div class="row justify-content-center">
       <div class="col-lg-7">
         <div class="bd-form-wrap">
-          <form id="contactForm" novalidate>
-            <div class="row g-3">
-              <div class="col-sm-6">
-                <label class="bd-label" for="nombre">Nombre</label>
-                <input type="text" class="form-control bd-input" id="nombre" placeholder="Tu nombre" required />
-                <div class="invalid-feedback">Por favor ingresá tu nombre.</div>
-              </div>
-              <div class="col-sm-6">
-                <label class="bd-label" for="email">Email</label>
-                <input type="email" class="form-control bd-input" id="email" placeholder="tu@email.com" required />
-                <div class="invalid-feedback">Email inválido.</div>
-              </div>
-              <div class="col-12">
-                <label class="bd-label" for="servicio">¿Qué servicio te interesa?</label>
-                <select class="form-select bd-input" id="servicio" required>
-                  <option value="" disabled selected>Elegí una opción</option>
-                  <option>App Web</option>
-                  <option>Plantillas y sistemas en Excel / Sheets</option>
-                  <option>Arreglo y soporte de plantillas</option>
-                  <option>No sé todavía, quiero hablar</option>
-                </select>
-                <div class="invalid-feedback">Seleccioná un servicio.</div>
-              </div>
-              <div class="col-12">
-                <label class="bd-label" for="mensaje">Contame tu caso</label>
-                <textarea class="form-control bd-input" id="mensaje" rows="4"
-                          placeholder="¿Qué problema querés resolver? ¿Qué usás ahora?" required></textarea>
-                <div class="invalid-feedback">Escribí un mensaje.</div>
-              </div>
-              <div class="col-12 d-flex flex-column flex-sm-row gap-3">
-                <button type="submit" class="btn bd-btn-submit flex-fill">
-                  Enviar consulta <i class="bi bi-send ms-2"></i>
-                </button>
-                <a href="https://api.whatsapp.com/send?phone=1137013254&text=Hola!%20Me%20gustar%C3%ADa%20consultar%20sobre%20el%20servicio%20de"
-                   target="_blank"
-                   class="btn bd-btn-whatsapp flex-fill">
-                  <i class="bi bi-whatsapp me-2"></i> Escribir por WhatsApp
-                </a>
-              </div>
-              <div class="col-12">
-                <div id="formSuccess" class="alert bd-alert-success d-none" role="alert">
-                  <i class="bi bi-check-circle-fill me-2"></i>
-                  ¡Gracias! Te respondo a la brevedad.
-                </div>
-              </div>
-            </div>
-          </form>
+          <form id="contactForm"
+      action="https://formspree.io/f/mnjyqekk"
+      method="POST">
+
+  <div class="row g-3">
+
+    <div class="col-sm-6">
+      <label class="bd-label" for="nombre">Nombre</label>
+      <input type="text"
+             class="form-control bd-input"
+             id="nombre"
+             name="nombre"
+             placeholder="Tu nombre"
+             required />
+      <div class="invalid-feedback">Por favor ingresá tu nombre.</div>
+    </div>
+
+    <div class="col-sm-6">
+      <label class="bd-label" for="email">Email</label>
+      <input type="email"
+             class="form-control bd-input"
+             id="email"
+             name="email"
+             placeholder="tu@email.com"
+             required />
+      <div class="invalid-feedback">Email inválido.</div>
+    </div>
+
+    <div class="col-12">
+      <label class="bd-label" for="servicio">¿Qué servicio te interesa?</label>
+      <select class="form-select bd-input"
+              id="servicio"
+              name="servicio"
+              required>
+        <option value="" disabled selected>Elegí una opción</option>
+        <option>App Web</option>
+        <option>Plantillas y sistemas en Excel / Sheets</option>
+        <option>Arreglo y soporte de plantillas</option>
+        <option>No sé todavía, quiero hablar</option>
+      </select>
+      <div class="invalid-feedback">Seleccioná un servicio.</div>
+    </div>
+
+    <div class="col-12">
+      <label class="bd-label" for="mensaje">Contame tu caso</label>
+      <textarea class="form-control bd-input"
+                id="mensaje"
+                name="mensaje"
+                rows="4"
+                placeholder="¿Qué problema querés resolver? ¿Qué usás ahora?"
+                required></textarea>
+      <div class="invalid-feedback">Escribí un mensaje.</div>
+    </div>
+
+    <div class="col-12 d-flex flex-column flex-sm-row gap-3">
+      <button type="submit" class="btn bd-btn-submit flex-fill">
+        Enviar consulta <i class="bi bi-send ms-2"></i>
+      </button>
+
+      <a href="https://api.whatsapp.com/send?phone=1137013254&text=Hola!%20Me%20gustar%C3%ADa%20consultar%20sobre%20el%20servicio%20de"
+         target="_blank"
+         class="btn bd-btn-whatsapp flex-fill">
+        <i class="bi bi-whatsapp me-2"></i> Escribir por WhatsApp
+      </a>
+    </div>
+
+  </div>
+
+</form>
         </div>
       </div>
     </div>
@@ -515,19 +537,39 @@
 <footer class="bd-footer">
   <div class="container">
     <div class="row align-items-center gy-3">
+
       <div class="col-md-4 text-center text-md-start">
       </div>
+
       <div class="col-md-4 text-center">
-        <p class="bd-footer-copy mb-0">© <span id="year"></span> Sitio desarrollado por Baldo Digital. <br> Todos los derechos reservados.</p>
+        <p class="bd-footer-copy mb-0">
+          © <span id="year"></span> Sitio desarrollado por Baldo Digital.<br>
+          Todos los derechos reservados.
+        </p>
       </div>
+
       <div class="col-md-4 text-center text-md-end">
-        <a href="https://api.whatsapp.com/send?phone=1137013254&text=Hola!%20Me%20gustar%C3%ADa%20consultar%20sobre%20el%20servicio%20de" target="_blank" class="bd-footer-link me-3">
+        
+        <a href="https://api.whatsapp.com/send?phone=1137013254&text=Hola!%20Me%20gustar%C3%ADa%20consultar%20sobre%20el%20servicio%20de"
+           target="_blank"
+           class="bd-footer-link me-3">
           <i class="bi bi-whatsapp"></i>
         </a>
-        <a href="https://www.instagram.com/baldo_digital/" target="_blank" class="bd-footer-link">
+
+        <a href="https://www.instagram.com/baldo_digital/"
+           target="_blank"
+           class="bd-footer-link me-3">
           <i class="bi bi-instagram"></i>
         </a>
+
+        <a href="https://www.linkedin.com/in/macarena-baldo/"
+           target="_blank"
+           class="bd-footer-link">
+          <i class="bi bi-linkedin"></i>
+        </a>
+
       </div>
+
     </div>
   </div>
 </footer>
