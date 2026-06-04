@@ -18,7 +18,6 @@
   --bd-muted:     #050c0e;
   --bd-negro:     #1a1015;
   --bd-cyan-dim:  #a09b9d;
-  --bd-cyan:      #eea1cb;
   --bd-radius:    12px;
   --bd-radius-lg: 20px;
   --bd-t:         0.22s ease;
@@ -170,13 +169,14 @@ body {
   font-size: 15px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: rgba(2,32,17,0.712);
-  background: rgba(120,204,190,0.342);
-  border: 2px solid rgba(24,5,5,0.014);
+  color:  rgba(2, 32, 17, 0.712); 
+  background: rgba(120, 204, 190, 0.342); 
+  border: 2px solid rgba(24, 5, 5, 0.014);
   border-radius: 100px;
   padding: 5px 14px;
   display: inline-block;
   margin-bottom: 16px;
+
 }
 .bd-tag--on-dark {
   color: var(--bd-cyan-dim);
@@ -213,8 +213,8 @@ body {
 ══════════════════════════════════════════ */
 
 .bd-btn-primary {
-  background: var(--bd-white);
-  color: var(--bd-black);
+  background: rgba(0, 0, 0, 0.685);
+  color: rgb(248, 244, 244);
   border: none;
   border-radius: 10px;
   font-weight: 600;
@@ -389,7 +389,9 @@ body {
   text-transform: uppercase;
   color: #1D9E75;
   margin-bottom: 0.3rem;
+  min-height: 2.2em;  
 }
+
 .bd-work-title {
   font-size: 0.9rem;
   font-weight: 600;
@@ -460,7 +462,7 @@ body {
 .bd-modal-body {
   padding: 1.5rem;
   overflow-y: auto;
-  max-height: 75vh;
+  max-height: vh;
 }
 .bd-modal-desc {
   color: #aaa;
