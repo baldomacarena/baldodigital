@@ -584,6 +584,9 @@ body {
   background: transparent;
   border: none;
   transition: transform 0.2s ease;
+   display: flex;
+  flex-direction: column;
+}
 }
 .bd-work-card:hover {
   transform: translateY(-4px);
@@ -624,7 +627,8 @@ body {
   opacity: 1;
 }
 .bd-work-info {
-  padding: 0.75rem 0.25rem 0;
+  padding: 0.75rem 0.25rem;
+  order: -1;
 }
 .bd-work-tag {
   display: inline-block;
